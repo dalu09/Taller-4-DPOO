@@ -15,7 +15,7 @@ public class PanelTablero extends JPanel{
 	
 	public PanelTablero() {
 		setLayout(new GridLayout(3,3));
-		setSize(new Dimension(300,300));
+		setPreferredSize(new Dimension(400, 400));
 		setVisible(true);
 		
 		cuadrado = new cuadrado();
